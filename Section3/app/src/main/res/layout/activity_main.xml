@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.madara.section3.MainActivity"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_startgps"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Start GPS"/>
+            <Button
+                android:id="@+id/btn_stopgps"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Stop GPS"
+                android:enabled="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_startgyro"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Start Gyro"/>
+            <Button
+                android:id="@+id/btn_stopgyro"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Stop gyro"
+                android:enabled="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_startmag"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Start mag"/>
+            <Button
+                android:id="@+id/btn_stopmag"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Stop mag"
+                android:enabled="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_startcom"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Start compase"/>
+            <Button
+                android:id="@+id/btn_stopcom"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Stop compase"
+                android:enabled="false"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
